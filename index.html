@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/dev-image.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Workers</title>
+</head>
+<body>
+    <div class="video-background">
+        <video src="./assets/coding-video.mp4" autoplay muted loop></video>
+        <div class="masc-video"></div>
+    </div>
+    <main>
+        <img src="./assets/logo.png" alt="logo dev workers"class='logo' >
+        <p>Soluções on demand!</p>
+        <p>Você já teve uma grande ideia ou um grande problema? Precisa de uma solução para as demandas e necessidades da sua empresa? Websites dinâmicos ou aplicativos inovadores, nossos desenvolvedores estão prontos para transformar sua visão em realidade.</p>
+        <button onclick="showForm()">Fale conosco</button>
+    </main>
+    <aside>
+        <img src="./assets/dev-image.png" alt="dev workers principal image" class='principal-image'>
+    </aside>
+
+    <form class="fale-conosco">
+        <div class="formHeader">
+            <h2>Fale Conosco</h2>
+            <button class="exitBtn" onclick="closeForm()" >X</button>
+        </div>
+        <input id="name"  type="text" placeholder="Seu nome" >
+        <input id="tel" type="tel" placeholder="(XX) 123456789" >
+        <textarea id="textArea" placeholder="Digite seu problema aqui" cols="30" rows="10" ></textarea>
+        <button class="sendBtn" type="button">Enviar</button>
+    </form>
+
+    <div class="masc-form"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
