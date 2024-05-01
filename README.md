@@ -32,12 +32,11 @@
 <h2>Estrutura do Projeto</h2>
 
 <pre>
-  we-care-petshop/
+  projeto-web-form/
   │
   ├── index.html
   ├── style.css
   └── assets/
-      └── wecare.png
 </pre>
 
 <h2>Como Contribuir</h2>
